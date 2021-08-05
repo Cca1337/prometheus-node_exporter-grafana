@@ -7,7 +7,7 @@
 ``` kubectl apply -n monitoring -f /kubernetes/prometheus-operator/ ```
 * Prometheus cluster monitoring instance
 ``` kubectl apply -n monitoring -f /kubernetes/prometheus-cluster-monitoring/ ```
-* Node-exporter(creates deamon sets)
+* Node-exporter(creates deamon sets) port 9100
 ``` kubectl apply -n monitoring -f /kubernetes/node-exporter/ ```
 * Grafana port 3000
 ``` kubectl apply -n monitoring -f /kubernetes/grafana/ ```
